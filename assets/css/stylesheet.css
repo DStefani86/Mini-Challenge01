@@ -1,5 +1,7 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-size-adjust: 24px;
 }
 
 header {
@@ -45,12 +47,34 @@ body {
 footer {
     width: 100%;
     height: 100px;
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     z-index: 2;
     background-color: lightblue;
     border-top: 20px solid gray;
+    border-bottom: 20px solid gray
+}
+
+p {
+    display: inline;
+    align-items: center;
+}
+
+input {
+
+    display: inline;
+    bottom: 0 auto;
+}
+
+button {
+    position: relative;
+    padding-left: 10px;
+}
+
+a:link {
+    color: red;
+
 }
 
 
